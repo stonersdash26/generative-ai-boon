@@ -1,3 +1,9 @@
+
+fastapi>=0.100.0
+uvicorn>=0.22.0
+pydantic>=2.0
+asyncpg>=0.28.0
+motor>=3.2.0
 import sqlite3
 
 def generate_accountability_summary(db_name="federal_oversight.db"):
